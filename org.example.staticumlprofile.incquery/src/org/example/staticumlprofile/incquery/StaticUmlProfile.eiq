@@ -1,0 +1,7 @@
+package org.example.staticumlprofile.incquery
+
+import "http://org.example.staticumlprofile/StaticUmlProfile/1.0"
+
+pattern exampleStereoType(exampleStereotype: ExampleStereotype) {
+	ExampleStereotype(exampleStereotype);
+}

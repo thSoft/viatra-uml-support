@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated StaticUmlProfile.profile -->
+      <package
+            uri="http://org.example.staticumlprofile/StaticUmlProfile/1.0"
+            class="org.example.staticumlprofile.StaticUmlProfilePackage"
+            genModel="model/StaticUmlProfile.profile.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="platform:/plugin/org.example.staticumlprofile/model/StaticUmlProfile.profile.uml#_DEP3gNS4EeWbidhR8IoAjw"
+            uri="http://org.example.staticumlprofile/StaticUmlProfile/1.0">
+      </profile>
+   </extension>
+
+</plugin>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Ecore="http://www.eclipse.org/uml2/schemas/Ecore/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Ecore/5 pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA">
+  <uml:Profile xmi:id="_DEP3gNS4EeWbidhR8IoAjw" name="StaticUmlProfile" metaclassReference="_GK77oNS4EeWbidhR8IoAjw">
+    <elementImport xmi:id="_GK77oNS4EeWbidhR8IoAjw" alias="Class">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_G30PwNS4EeWbidhR8IoAjw" name="ExampleStereotype">
+      <ownedAttribute xmi:id="_LrOUYdS4EeWbidhR8IoAjw" name="base_Class" association="_LrLRENS4EeWbidhR8IoAjw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_No3FwNS4EeWbidhR8IoAjw" name="exampleProperty">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_LrLRENS4EeWbidhR8IoAjw" name="E_ExampleStereotype_Class1" memberEnd="_LrOUYNS4EeWbidhR8IoAjw _LrOUYdS4EeWbidhR8IoAjw">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_LrOUYNS4EeWbidhR8IoAjw" name="extension_ExampleStereotype" type="_G30PwNS4EeWbidhR8IoAjw" aggregation="composite" association="_LrLRENS4EeWbidhR8IoAjw"/>
+    </packagedElement>
+    <profileApplication xmi:id="_DF0k0NS4EeWbidhR8IoAjw">
+      <eAnnotations xmi:id="_DF1L4NS4EeWbidhR8IoAjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Profile>
+  <Ecore:EPackage xmi:id="_YCoV8NS4EeWbidhR8IoAjw" base_Package="_DEP3gNS4EeWbidhR8IoAjw" packageName="staticumlprofile" nsPrefix="StaticUmlProfile" nsURI="http://org.example.staticumlprofile/StaticUmlProfile/1.0" basePackage="org.example" prefix="StaticUmlProfile"/>
+</xmi:XMI>

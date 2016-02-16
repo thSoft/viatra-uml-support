@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:StaticUmlProfile="http://org.example.staticumlprofile/StaticUmlProfile/1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_lMr3QNTKEeWkdcDg3Tq6Og" name="RootElement">
+    <packagedElement xmi:type="uml:Class" xmi:id="_utiicNTKEeWkdcDg3Tq6Og" name="Class1"/>
+    <profileApplication xmi:id="_t_eGENTLEeWAOss5v880HQ">
+      <eAnnotations xmi:id="_t_i-kNTLEeWAOss5v880HQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://org.example.staticumlprofile/StaticUmlProfile/1.0#/"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.example.staticumlprofile/model/StaticUmlProfile.profile.uml#_DEP3gNS4EeWbidhR8IoAjw"/>
+    </profileApplication>
+  </uml:Model>
+  <StaticUmlProfile:ExampleStereotype xmi:id="_vYDCkNTLEeWAOss5v880HQ" base_Class="_utiicNTKEeWkdcDg3Tq6Og" exampleProperty="test"/>
+</xmi:XMI>
