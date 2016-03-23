@@ -1,4 +1,4 @@
-package org.example.staticumlprofile.incquery
+package org.example.staticumlprofile.query
 
 import "http://org.example.staticumlprofile/StaticUmlProfile/1.0"
 

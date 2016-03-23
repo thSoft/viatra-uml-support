@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><plugin>
+  <extension id="org.example.staticumlprofile.incquery.StaticUmlProfile" point="org.eclipse.viatra.query.runtime.queryspecification">
+    <group group="org.eclipse.viatra.query.runtime.extensibility.SingletonExtensionFactory:org.example.staticumlprofile.incquery.StaticUmlProfile" id="org.example.staticumlprofile.incquery.StaticUmlProfile"/>
+  </extension>
+  <extension id="org.example.staticumlprofile.query.StaticUmlProfile" point="org.eclipse.viatra.query.runtime.queryspecification">
+    <group group="org.eclipse.viatra.query.runtime.extensibility.SingletonExtensionFactory:org.example.staticumlprofile.query.StaticUmlProfile" id="org.example.staticumlprofile.query.StaticUmlProfile"/>
+  </extension>
+</plugin>
