@@ -1,0 +1,11 @@
+package org.example.umlqueries
+
+import "http://www.eclipse.org/uml2/5.0.0/UML"
+
+pattern superClass(subclass : Class, superclass : Class) {
+	Class.superClass(subclass, superclass);
+}
+
+pattern qualifiedName(element: NamedElement, name) {
+	NamedElement.qualifiedName(element, name);
+}

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.example.umlqueries
+Bundle-SymbolicName: org.example.umlqueries;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Export-Package: org.example.umlqueries,
+ org.example.umlqueries.util
+Require-Bundle: org.eclipse.emf.ecore,
+ org.eclipse.viatra.query.runtime,
+ org.eclipse.xtext.xbase.lib,
+ org.eclipse.uml2.uml,
+ org.eclipse.viatra.integration.uml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.log4j
